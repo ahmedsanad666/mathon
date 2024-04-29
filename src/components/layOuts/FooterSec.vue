@@ -2,9 +2,9 @@
   <!-- Footer -->
   <footer class="text-center text-lg-start bg-body-tertiary text-muted">
     <!-- Section: Social media -->
-    <section class="row py-2">
+    <section class="row ">
       <div class="col-md-6 col-12">
-        <div class="me-5 text-end textEdit">
+        <div class="me-md-5 text-end textEdit">
           <h4>بخدمتكم في مناسباتكم السعيدة</h4>
         </div>
       </div>
@@ -25,6 +25,14 @@
             class="icon alt"
             size="2xl"
           />
+          <a href="#" class="wtsicon" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!-- Font Awesome Pro 6.0.0-alpha2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+              <path
+                d="M16 256C16 388.549 123.451 496 256 496S496 388.549 496 256S388.549 16 256 16S16 123.451 16 256ZM137.451 303.627L191.695 280.377C198.086 277.611 205.594 279.471 209.938 284.861L231.961 311.768C266.586 294.768 294.734 266.627 311.727 232.018L284.812 209.969C279.437 205.578 277.602 198.141 280.32 191.75L303.586 137.469C306.633 130.516 314.172 126.703 321.516 128.406L371.893 140.031C379.018 141.656 384.002 147.922 384.002 155.25C384.002 281.393 281.383 384.002 155.258 384.002C147.922 384.002 141.654 379.018 140.021 371.893L128.396 321.502C126.709 314.205 130.498 306.627 137.451 303.627Z"
+              />
+            </svg>
+          </a>
           <a class="wtsicon" target="_blank" href="https://wa.me/+200123456789">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <!-- Font Awesome Pro 6.0.0-alpha2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
@@ -37,7 +45,7 @@
       </div>
       <!-- Left -->
 
-      <!-- Right -->    
+      <!-- Right -->
     </section>
     <!-- Section: Social media -->
 
@@ -53,14 +61,14 @@
   <!-- Footer -->
 </template>
 
-<script>
-export default {};
-</script>
-
 <style lang="scss" scoped>
 footer {
-  box-shadow: 0px 0px 4px 4px rgba($color: #645526, $alpha: 1);
+  box-shadow: 0px 0px 4px 4px rgba($color: #645526, $alpha: 0.5);
+
   background: #fffcf2 !important;
+}
+section{
+  padding: 1rem 0;
 }
 .wtsicon {
   svg {

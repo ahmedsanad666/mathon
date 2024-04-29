@@ -3,6 +3,7 @@
 
   <!-- Section: Images -->
   <section class="gallerySec">
+    <h1 class="text-center">راوبط تهمك</h1>
     <div class="row px-4">
       <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
         <div class="d-flex flex-column">
@@ -124,7 +125,7 @@
           href="https://drive.google.com/file/d/1pwPp5Zn2elFGsNi0r12xBPLhR_qXYrsi/view "
           class="actoinBtn d-flex py-2 px-4 my-2 mx-auto"
         >
-          <h6>الدليل الإرشادي لإنشاء عقد زواج جدبد</h6>
+          <h6>الدليل الإرشادي لإنشاء عقد زواج جديد</h6>
 
           <div class="arrowLeft">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -173,11 +174,17 @@ export default {};
 <style lang="scss" scoped>
 .gallerySec {
   overflow: hidden;
-  margin: 3rem 0;
+  margin-bottom: 2rem;
+
+  h1 {
+    margin: 2rem 0;
+
+    color: var(--secondary-color);
+  }
   .bg-image {
     img {
       height: 300px !important;
-      width: 350px !important;
+      width: 400px !important;
       object-fit: cover;
     }
   }
@@ -185,7 +192,7 @@ export default {};
   a {
     cursor: pointer;
     text-decoration: none;
-    width: 350px;
+    width: 400px;
     position: relative;
     font-weight: bold !important;
     color: #2c3e50;
@@ -203,7 +210,8 @@ export default {};
       color: white;
     }
     h6 {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
+      text-align: start;
     }
     .arrowLeft {
       background: var(--primary-color);

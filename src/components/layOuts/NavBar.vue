@@ -5,7 +5,7 @@
         <a class="navbar-brand" href="#">
           <div class="row">
             <div class="logo">
-              <img src="../../assets/imgs/logo/logo.jpg"  alt="" />
+              <img src="../../assets/imgs/logo/logo.jpg" alt="" />
               <h5 class="mt-2">مأذون أنكحة شرعي</h5>
             </div>
           </div>
@@ -73,7 +73,6 @@
         </div> -->
       </div>
     </nav>
-
   </section>
 </template>
 
@@ -86,7 +85,9 @@ export default {};
   background: var(--main-bg-color) !important;
   padding: 0 !important;
   margin: 0 !important;
-border-bottom: 1px black solid;
+  // border-bottom: 1px black solid;
+  box-shadow: 0px 0px 4px 4px rgba($color: #645526, $alpha: 0.5);
+
   .navbar-brand {
     .logo {
       img {
@@ -96,7 +97,7 @@ border-bottom: 1px black solid;
 
       h5 {
         color: var(--secondary-color);
-      
+
         font-family: "Reem Kufi", sans-serif;
       }
     }
