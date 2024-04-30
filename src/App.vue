@@ -13,7 +13,7 @@
   --primary-color: #d1a442;
   --secondary-color: #1e3c50;
   --primary-dark: #333333;
-  --main-bg-color: #fffcf2;
+  --main-bg-color: #fcf6ea;
 }
 #app {
   font-family: "Tajawal", sans-serif;

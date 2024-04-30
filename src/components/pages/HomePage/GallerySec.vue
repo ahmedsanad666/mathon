@@ -39,7 +39,7 @@
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <img src="../../../assets/imgs/عقد.jpg" />
+            <img src="../../../assets/imgs/stamp.jpg" />
           </div>
         </div>
 
@@ -65,7 +65,7 @@
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <img src="../../../assets/imgs/ماذون صوره.jpg" />
+            <img src="../../../assets/imgs/medicalRep.jpg" />
           </div>
         </div>
 
@@ -91,7 +91,7 @@
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <img src="../../../assets/imgs/عقد.jpg" />
+            <img src="../../../assets/imgs/اخرى.jpg" />
           </div>
         </div>
 
@@ -117,7 +117,7 @@
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <img src="../../../assets/imgs/عقد.jpg" />
+            <img src="../../../assets/imgs/documents.jpg" />
           </div>
         </div>
 
@@ -125,7 +125,7 @@
           href="https://drive.google.com/file/d/1pwPp5Zn2elFGsNi0r12xBPLhR_qXYrsi/view "
           class="actoinBtn d-flex py-2 px-4 my-2 mx-auto"
         >
-          <h6>الدليل الإرشادي لإنشاء عقد زواج جديد</h6>
+          <h6>الدليل الإرشادي لإنشاء عقد زواج</h6>
 
           <div class="arrowLeft">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -174,7 +174,7 @@ export default {};
 <style lang="scss" scoped>
 .gallerySec {
   overflow: hidden;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 
   h1 {
     margin: 2rem 0;
@@ -184,7 +184,7 @@ export default {};
   .bg-image {
     img {
       height: 300px !important;
-      width: 400px !important;
+      width: 400px;
       object-fit: cover;
     }
   }
@@ -195,6 +195,7 @@ export default {};
     width: 400px;
     position: relative;
     font-weight: bold !important;
+
     color: #2c3e50;
     border: 2px solid var(--primary-color) !important;
     border: none;
@@ -232,5 +233,34 @@ export default {};
 
 img {
   border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .arrowLeft {
+    background: var(--primary-color);
+    padding: 8px !important;
+    border-radius: 50% 50%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    svg {
+      fill: white;
+      width: 27px;
+      height: 27px;
+    }
+  }
+  a {
+    width: 320px !important;
+  }
+  h6 {
+    font-size: 1rem !important;
+    text-align: start;
+  }
+  .bg-image {
+    img {
+      width: 320px !important;
+    }
+  }
 }
 </style>
