@@ -1,44 +1,54 @@
 <template>
   <section>
     <header
-      class="headerSec d-flex  justify-content-center align-items-center px-4"
+      class="headerSec d-flex justify-content-center align-items-center px-4"
     >
       <div class="row w-100 h-100">
         <div class="col-12 col-md-6 text-center text-md-end">
           <div class="headerContent">
             <h1>ماذون عقود أنكحة</h1>
-            <h4>محمد عواد المعتق</h4>
-            <div class="w-75 py-4 paragraph">
+            <h4>مأذون شرعي معتمد من وزارة العدل</h4>
+            <h5 class="fw-bold">رقم الترخيص : 8665</h5>
+            <div class="w-100 py-4 paragraph">
               <p>
-                مأذون شرعي مملك شرعي مملك زواج عاقد شرعي مرخّص في إجراء عقود
-                الأنكحة للسعوديين والمقيمن ومايتبع ذلك من إجراءات حكومة لدى
-                وزارة العدل
+                تشرف بخدمتكم في عقود الأنكحة للمواطنين والمقيمين متوفر لدينا
+                عقود الإلكترونية لحجز موعد مع مأذون أنكحة الرجاء التواصل معنا
+                <span class="d-block">مع الالتزام التام بالمواعيد</span>
               </p>
-              <h5 class="fw-bold">رقم الترخيص : 8665</h5>
             </div>
 
-            <a
-
-              target="_blank"
-              href="https://wa.me/+966509880111"
-              class="py-2"
+            <a target="_blank" href="https://wa.me/+966509880111" class="py-2"
               >تواصل معنا</a
             >
           </div>
         </div>
-        <div
-          class="col-12 col-md-6 d-flex justify-content-end"
-        >
+        <div class="col-12 col-md-6 d-flex justify-content-end">
           <div
             class="d-flex flex-column headerContacts h-75 justify-content-between"
           >
             <a
+              target="_blank"
+              class="wtsicon"
+              href="https://twitter.com/mathon0111?t=NJ0uPZAj9YZvG8gnfIXSSw&s=09"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                viewBox="0 0 30 30"
+              >
+                <path
+                  d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"
+                ></path></svg
+            ></a>
+
+            <!-- <a
               href="https://twitter.com/mathon0111?t=NJ0uPZAj9YZvG8gnfIXSSw&s=09"
               ><font-awesome-icon
                 :icon="['fab', 'twitter']"
                 class="icon alt"
                 size="2xl"
-            /></a>
+            /></a> -->
 
             <a
               href="https://www.instagram.com/mathon.0111"
@@ -89,12 +99,12 @@ export default {};
   // border-bottom: 1px #ccc solid;
   // box-shadow: 0px 0px 4px 4px rgba($color: #645526, $alpha: 0.5);
   height: 70vh;
-  background-color: #fffad5;
+  background-color: #f7fbfb;
   // background-color: var(--main-bg-color);
 
   @media only screen and (max-width: 768px) {
     /*Tablets [601px -> 1200px]*/
-    height: 85vh;
+    height: 95vh;
   }
   .headerContent {
     h1 {
@@ -103,11 +113,11 @@ export default {};
     }
     p {
       color: var(--primary-dark);
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     a {
-      padding:  1rem 4rem;
+      padding: 1rem 4rem;
       text-decoration: none;
       background: var(--primary-color);
       color: white;
@@ -130,7 +140,7 @@ export default {};
     @media only screen and (max-width: 768px) {
       flex-direction: row !important;
       width: 70%;
-      margin: auto;
+      margin: 1.5rem auto;
     }
   }
 }

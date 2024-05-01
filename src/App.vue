@@ -10,10 +10,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 :root {
-  --primary-color: #d1a442;
+  --primary-color: #008D55;
   --secondary-color: #1e3c50;
   --primary-dark: #333333;
-  --main-bg-color: #fcf6ea;
+  --main-bg-color: white  ;
 }
 #app {
   font-family: "Tajawal", sans-serif;

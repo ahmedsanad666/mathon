@@ -1,23 +1,23 @@
 <template>
   <div class="home">
- 
-<HeaderSec/>
-<GallerySec/>
+    <HeaderSec />
+    <GallerySec />
+    <InstructionsSEc/>
   </div>
 </template>
 
 <script>
-import HeaderSec from '@/components/pages/HomePage/HeaderSec.vue'
+import HeaderSec from "@/components/pages/HomePage/HeaderSec.vue";
 
-import GallerySec from '@/components/pages/HomePage/GallerySec.vue'
+import GallerySec from "@/components/pages/HomePage/GallerySec.vue";
+import InstructionsSEc from "@/components/pages/HomePage/InstructionsSEc.vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HeaderSec
-    ,
-    GallerySec
-  
-  }
-}
+    HeaderSec,
+    InstructionsSEc,
+    GallerySec,
+  },
+};
 </script>
