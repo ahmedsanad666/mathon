@@ -8,7 +8,7 @@
     <section class="row">
       <div class="col-md-6 col-12">
         <div class="me-md-5 text-end textEdit">
-          <h4>دامت بأفراحكم و مسراتكم</h4>
+          <h4>دامت أفراحكم و مسراتكم</h4>
         </div>
       </div>
       <div class="col-md-6 col-12 d-flex justify-content-end px-4">

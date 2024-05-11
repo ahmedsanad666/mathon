@@ -39,12 +39,13 @@
       </div>
       <!-- ................. -->
       <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-column nazSvg">
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <img src="../../../assets/imgs/naz.jpeg" />
+            <!-- <img src="../../../assets/imgs/naz.svg /> -->
+            <img src="../../../assets/imgs/naz.svg" />
           </div>
         </div>
 
@@ -52,7 +53,7 @@
           href="https://inhaatportal.moj.gov.sa/HomePage.aspx"
           class="actoinBtn d-flex py-2 px-4 my-2 mx-auto"
         >
-          <h6>رابط تقديم عقد زواج جديد</h6>
+          <h6>لتقديم عقد زواج جديد</h6>
 
           <div class="arrowLeft">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -65,14 +66,14 @@
         </a>
       </div>
       <!-- .................. -->
-    
+
       <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-column nazSvg">
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <img src="../../../assets/imgs/naz.jpeg" />
+            <img src="../../../assets/imgs/naz.svg" />
           </div>
         </div>
 
@@ -80,7 +81,7 @@
           href="https://inhaatportal.moj.gov.sa/PartiesVerificationOnRequest.aspx"
           class="actoinBtn d-flex py-2 px-4 my-2 mx-auto"
         >
-          <h6>رابط المصادقة على طلب سابق</h6>
+          <h6>للمصادقة على طلب سابق</h6>
 
           <div class="arrowLeft">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -93,7 +94,7 @@
         </a>
       </div>
       <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-column nazSvg">
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
@@ -109,7 +110,7 @@
           href="https://new.najiz.sa/applications/social-cases/marriage-contracts"
           class="actoinBtn d-flex py-2 px-4 my-2 mx-auto"
         >
-          <h6>رابط التحقق من عقد زواج الكتروني</h6>
+          <h6>للتحقق من عقد زواج الكتروني</h6>
 
           <div class="arrowLeft">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -121,14 +122,14 @@
           </div>
         </a>
       </div>
-     <!-- 0000000000000000000000 -->
-     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-        <div class="d-flex flex-column">
+      <!-- 0000000000000000000000 -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+        <div class="d-flex flex-column nazSvg">
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <img src="../../../assets/imgs/medicalRep.jpeg" />
+            <img src="../../../assets/imgs/صحة.svg" />
           </div>
         </div>
 
@@ -136,7 +137,7 @@
           href="https://premarriage.seha.sa/"
           class="actoinBtn d-flex py-2 px-4 my-2 mx-auto"
         >
-          <h6>رابط الاستعلام عن فحص طبي</h6>
+          <h6>للاستعلام عن فحص طبي</h6>
 
           <div class="arrowLeft">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -150,12 +151,12 @@
       </div>
       <!-- ......... -->
       <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-column nazSvg">
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <img src="../../../assets/imgs/اخرى.jpeg" />
+            <img src="../../../assets/imgs/3اخرى.png" />
           </div>
         </div>
 
@@ -163,7 +164,7 @@
           href="https://inhaatportal.moj.gov.sa/tabsnew.aspx"
           class="actoinBtn d-flex py-2 px-4 my-2 mx-auto"
         >
-          <h6>رابط خدمات توثيق اخرى</h6>
+          <h6>خدمات توثيق أخرى</h6>
 
           <div class="arrowLeft">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -175,8 +176,6 @@
           </div>
         </a>
       </div>
- 
-   
     </div>
   </section>
 </template>
@@ -185,7 +184,7 @@
 .gallerySec {
   overflow: hidden;
   margin-bottom: 5rem;
-// margin-top: 2rem;
+  // margin-top: 2rem;
   h5 {
     margin: 2rem 0;
 
@@ -271,6 +270,10 @@ img {
     img {
       width: 320px !important;
     }
+  }
+
+  .nazSvg img {
+    object-fit: fill !important;
   }
 }
 </style>

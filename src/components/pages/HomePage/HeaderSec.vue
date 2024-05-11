@@ -4,15 +4,17 @@
       class="headerSec d-flex justify-content-center align-items-center px-4"
     >
       <div class="row w-100 h-100">
-        <div class="col-12 col-md-6 text-center text-md-end">
+        <div class="col-12 col-md-6 text-center text-md-end headerUp">
           <div class="headerContent">
-            <h1>ماذون عقود أنكحة</h1>
+            <h1>مأذون عقود أنكحة</h1>
             <h4>مأذون شرعي معتمد من وزارة العدل</h4>
             <h5 class="fw-bold">رقم الترخيص : 8665</h5>
             <div class="w-100 py-4 paragraph">
               <p>
-                تشرف بخدمتكم في عقود الأنكحة للمواطنين والمقيمين متوفر لدينا
-                عقود الإلكترونية لحجز موعد مع مأذون أنكحة الرجاء التواصل معنا
+                نتشرف بخدمتكم في عقود الأنكحة للمواطنين والمقيمين متوفر لدينا
+                عقود الإلكترونية
+                <br/>
+                <span class="d-blocl">لحجز موعد مع مأذون أنكحة </span>
                 <span class="d-block">مع الالتزام التام بالمواعيد</span>
               </p>
             </div>
@@ -103,9 +105,15 @@ export default {};
   // background-color: var(--main-bg-color);
 
   @media only screen and (max-width: 768px) {
-    /*Tablets [601px -> 1200px]*/
-    height: 95vh;
+    .headerUp {
+      // height: 30%;
+    }
+    .headerSec {
+      /*Tablets [601px -> 1200px]*/
+      height: 95vh;
+    }
   }
+
   .headerContent {
     h1 {
       // font-family: "Reem Kufi", sans-serif;
