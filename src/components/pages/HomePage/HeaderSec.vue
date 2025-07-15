@@ -8,12 +8,13 @@
           <div class="headerContent">
             <h1>مأذون عقود أنكحة</h1>
             <h4>مأذون شرعي معتمد من وزارة العدل</h4>
+            <h5 class="fw-bold phoneNum">رقم الهاتف : 966509880111</h5>
             <h5 class="fw-bold">رقم الترخيص : 8665</h5>
             <div class="w-100 py-4 paragraph">
               <p>
                 نتشرف بخدمتكم في عقود الأنكحة للمواطنين والمقيمين متوفر لدينا
                 عقود الإلكترونية
-                <br/>
+                <br />
                 <span class="d-blocl">لحجز موعد مع مأذون أنكحة </span>
                 <span class="d-block">مع الالتزام التام بالمواعيد</span>
               </p>
@@ -26,7 +27,7 @@
         </div>
         <div class="col-12 col-md-6 d-flex justify-content-end">
           <div
-            class="d-flex flex-column headerContacts h-75 justify-content-between"
+            class="d-flex flex-column headerContacts h-75 justify-content-between fixed-header-contacts"
           >
             <a
               target="_blank"
@@ -100,7 +101,7 @@ export default {};
   padding-top: 4rem;
   // border-bottom: 1px #ccc solid;
   // box-shadow: 0px 0px 4px 4px rgba($color: #645526, $alpha: 0.5);
-  height: 70vh;
+  height: 80vh;
   background-color: #f7fbfb;
   // background-color: var(--main-bg-color);
 
@@ -147,7 +148,7 @@ export default {};
     width: 80px;
     @media only screen and (max-width: 768px) {
       flex-direction: row !important;
-      width: 70%;
+      width: 88%;
       margin: 1.5rem auto;
     }
   }
@@ -156,7 +157,9 @@ export default {};
 svg {
   cursor: pointer;
 }
-
+.phoneNum {
+  font-size: 2.4rem;
+}
 .svg-inline--fa:hover {
   color: var(--primary-color) !important; /* Change color on hover */
 }
@@ -181,6 +184,39 @@ svg {
 @media only screen and (max-width: 768px) {
   .paragraph {
     width: 100% !important;
+  }
+}
+</style>
+
+<style scoped>
+.fixed-header-contacts {
+  position: fixed;
+  top: 4rem;
+  left: 20px;
+  width: 80px;
+  height: 70vh;
+  background: none;
+  z-index: 1000;
+
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .fixed-header-contacts {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    width: 100vw;
+    height: 60px;
+    background: none;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    z-index: 1000;
+    height: 70px !important;
   }
 }
 </style>
